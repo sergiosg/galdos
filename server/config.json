@@ -1,0 +1,31 @@
+{
+  "restApiRoot": "/api",
+  "host": "0.0.0.0",
+  "port": 8080,
+  "remoting": {
+    "context": {
+      "enableHttpContext": false
+    },
+    "rest": {
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "100kb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "100kb"
+    },
+    "cors": false,
+    "errorHandler": {
+      "disableStackTrace": false
+    }
+  },
+  "legacyExplorer": false,
+  "logs_dir" : "./logs",
+  "logs_datepattern": ".yyyy-MM-dd",
+  "logs_level": "debug",
+  "environment": "local"
+}
