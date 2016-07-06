@@ -1,0 +1,14 @@
+{
+  "create":
+  {
+    "http": {"path": "/"},
+    "accepts": [
+      {"arg": "body", "type": "book", "required": true, "http": { "source": "body" } }
+    ],
+    "returns": {
+      "arg": "result",
+      "type": "object",
+      "root": true
+    }
+  }
+}
