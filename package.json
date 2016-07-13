@@ -3,6 +3,10 @@
   "license": "GPL-3.0",
   "version": "1.0.0",
   "main": "server/server.js",
+  "engines" : {
+    "node" : ">=4.4.1",
+    "npm" : ">=2.14.20"
+  },
   "description": "galdos",
   "repository": {
     "type": "git",
